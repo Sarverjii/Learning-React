@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#background{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+}
+
+#menu{
+    display: flex;
+    position: fixed;
+    border-radius: 20px;
+    background-color: white;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
