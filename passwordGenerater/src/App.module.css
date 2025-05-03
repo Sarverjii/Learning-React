@@ -1,0 +1,119 @@
+/* App.module.css */
+
+:root {
+    --bg-color: #121212;
+    --fg-color: #e0e0e0;
+    --accent: #3498db;
+    --accent-hover: #2980b9;
+    --button-green: #2ecc71;
+    --button-green-hover: #27ae60;
+    --card-bg: #1e1e1e;
+    --border-color: #333;
+  }
+  
+  .container {
+    max-width: 420px;
+    margin: 60px auto;
+    padding: 2rem;
+    background: var(--card-bg);
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--fg-color);
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 1.8rem;
+    font-size: 2rem;
+    color: var(--fg-color);
+  }
+  
+  .passwordRow {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .output {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    background-color: #2c2c2c;
+    color: var(--fg-color);
+  }
+  
+  .copyBtn {
+    padding: 0.75rem 1rem;
+    background-color: var(--button-green);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .copyBtn:hover {
+    background-color: var(--button-green-hover);
+  }
+  
+  .controlGroup {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 1rem 0;
+  }
+  
+  .slider {
+    flex: 1;
+    height: 4px;
+    background: #555;
+    border-radius: 4px;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    appearance: none;
+    height: 16px;
+    width: 16px;
+    background: var(--accent);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    height: 16px;
+    width: 16px;
+    background: var(--accent);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    background-color: var(--accent);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: var(--accent-hover);
+  }
+  
+  label {
+    font-size: 0.95rem;
+  }
+  
